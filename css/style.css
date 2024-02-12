@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+* {
+	font-family: 'Ubuntu', sans-serif;
+	padding: 0;
+	margin: 0;
+	color: white;
+
+}
+
+body {
+	height: 100vh;
+	background: linear-gradient(to right, #000060b5 , #00000087);
+	
+}
+.continer {
+	background-color: black;
+	height: 100%;
+	width: 100%;
+	/* border-radius: 20px; */
+	background-image: linear-gradient(to right, #000060b5 , #00000087),
+	url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+.continer:hover {
+	background-image: linear-gradient(to right, #000060b5 , transparent),
+	url(../img/bg.jpg);
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	margin: auto;
+	flex-wrap: wrap;
+}
+header .logo {
+	text-decoration: none;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+header ul {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	align-items: center;
+	font-size: 18px;
+	padding: 20px 10px;
+}
+
+header ul a {
+	text-decoration: none;
+	border-bottom: solid 3px transparent;
+}
+header ul a:hover {
+	border-color: white;
+}
+.content {
+	padding: 20px;
+
+}
+.content h2 {
+	font-size: 100px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.content p {
+	font-size: 18px;
+	letter-spacing: 1.5px;
+	line-height: 1.6;
+	padding: 20px 0;
+	width: 350px;
+}
+.content button {
+	color: #000000;
+	background: white;
+	border: none;
+	border-radius: 5px;
+	padding: 5px 10px;
+	font-size: 18px;
+	border: solid 3px white;
+}
+.content button:hover {
+	background: transparent;
+	color: white;
+	cursor: pointer;
+}
+.form {
+	width: 250px;
+	height: 400px;
+	background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+	margin-top: 120px;
+	padding:25px;
+	border-top-left-radius: 10px;
+	position: absolute;
+	bottom: 0;
+	right: 0px;
+	
+	
+}
+.form h2 {
+	width: 220px;
+	font-family: sans-serif;
+	text-align: center;
+	color: #000;
+	font-size: 22px;
+	background-color: #fff;
+	border-radius: 10px;
+	margin: 2px;
+	padding: 8px;
+}
+.form input {
+	width: 240px;
+	height: 35px;
+	background: transparent;
+	border-bottom: 1px solid #fff;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	color: #fff;
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin-top: 30px;
+	font-family: sans-serif;
+	outline: none;
+}
+
+
+.form .link{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	padding-top: 20px;
+	text-align: center;
+	color: #fff;
+}
+.form .link a{
+	text-decoration: none;
+	color: #fff;
+
+}
+.liw {
+	padding-top: 15px;
+	padding-bottom: 10px;
+	text-align: center;
+	color: #fff;
+
+}
+.icons a {
+	text-decoration: none;
+	color: #fff;
+	position: relative;
+	left: 37%;
+}
+.icons ion-icon{
+	color: #fff;
+	font-size: 30px;
+	padding-left: 14px;
+	padding-top: 5px;
+	transition: 0.4s ease;
+}
+.icons ion-icon:hover {
+	color:	blue;
+}
+ion-icon {
+	position: relative;
+	top: 3.8px;
+}
+::placeholder {
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.btnn {
+	width: 240px;
+	height: 40px;
+	background: transparent;
+	border: none;
+	margin-top: 30px;
+	font-size: 18px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 0.4s ease;
+	color: #fff;
+}
+
+.btnn:hover a {
+	color: blue;
+}
+.btnn a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	transition: 0.5s ease;
+	background: transparent;
+
+
+}
+.btnn a:hover {
+	color: blue	;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: top;
+	height: 380px;
+	width: 100%;
+	background-color: #000;
+	gap: 20px;
+
+}
+.iframe {
+	display: flex;
+	height: 100%;
+	width: 50%;
+	border-radius: 10px;
+	gap: 2px;
+}
+
+.map {
+	width: 50%;
+	border-radius: 10px;
+}
+.video {
+	width: 50%;
+	border-radius: 10px;
+}
+.social {
+	margin-top: 12px;
+	font-size: 18px;
+}
+.social ion-icon {
+	color: #fff;
+	font-size: 30px;
+	padding-left: 14px;
+	padding-top: 5px;
+	transition: 0.4s ease;
+}
+.social ion-icon:hover {
+	color:	blue;
+}
+header ul input {
+	width: 240px;
+	height: 35px;
+	background: #fff;
+	border: solid 1px black;
+	padding: 0 6px;
+	color: #000;
+	font-size: 18px;
+	letter-spacing: 1px;
+	font-family: sans-serif;
+	outline: none;
+	border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
